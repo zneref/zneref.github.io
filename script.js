@@ -192,7 +192,7 @@ $(document).ready(function() {
       }),
       success: function(data) {
         console.log('Card created - ' + data.shortUrl);
-        alert('Card created - ' + data.shortUrl);
+        //alert('Card created - ' + data.shortUrl);
       }
     });
   }
